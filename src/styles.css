@@ -1,49 +1,44 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fff8e1;
-    color: #5d4037;
+    color: white; /* Texto blanco para contrastar */
     margin: 0;
     padding: 0;
     text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
 }
 
 header {
-    background-color: #d32f2f;
+    background-color: rgba(211, 47, 47, 0.8); /* Rojo semitransparente */
     color: white;
     padding: 20px;
-}
-
-h1 {
-    margin: 0;
 }
 
 section {
     padding: 30px;
     margin: 20px;
     border-radius: 10px;
-    background-color: #ffeb3b;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-img {
-    width: 80%;
-    max-width: 500px;
-    border-radius: 10px;
-    margin-top: 15px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    font-size: 18px;
-    margin: 10px 0;
+    background-color: rgba(255, 235, 59, 0.9); /* Amarillo semitransparente */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 footer {
-    background-color: #5d4037;
+    background-color: rgba(93, 64, 55, 0.8); /* Marrón semitransparente */
     color: white;
     padding: 10px;
 }
