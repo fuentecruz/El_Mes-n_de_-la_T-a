@@ -1,10 +1,11 @@
 body {
     font-family: 'Arial', sans-serif;
-    color: white; /* Texto blanco para contrastar */
+    color: white;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&w=1000&q=80');
+    /* Usa tu imagen local */
+    background-image: url('../images/restaurante.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +25,7 @@ body::before {
 }
 
 header {
-    background-color: rgba(211, 47, 47, 0.8); /* Rojo semitransparente */
+    background-color: rgba(211, 47, 47, 0.8);
     color: white;
     padding: 20px;
 }
@@ -33,12 +34,12 @@ section {
     padding: 30px;
     margin: 20px;
     border-radius: 10px;
-    background-color: rgba(255, 235, 59, 0.9); /* Amarillo semitransparente */
+    background-color: rgba(255, 235, 59, 0.9);
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 footer {
-    background-color: rgba(93, 64, 55, 0.8); /* Marrón semitransparente */
+    background-color: rgba(93, 64, 55, 0.8);
     color: white;
     padding: 10px;
 }
